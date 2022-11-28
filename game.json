@@ -922,6 +922,1358 @@
         "metadata": "",
         "name": "Orbitron-SemiBold.ttf",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/1f09953a6e3a9ab415fbc4b01143667c0fac9bfd8c39b1ba4b8c62c522985cf2_freezing_1.png",
+          "name": "freezing_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/e5bdaa7059abaeae5500fbb25474fca7f28d20339c467fa9487e879137165513_freezing_10.png",
+          "name": "freezing_10.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_11.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/23c6ffd97992812b6eb50ff18e854821c150fed37d1b894b2c50099a143e87e7_freezing_11.png",
+          "name": "freezing_11.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_12.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/0885370f06477111afb211e706f4ca82b5dbc8417ae8ca36f8f2ad1159277e1d_freezing_12.png",
+          "name": "freezing_12.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_13.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/b7eefa99008751d7a1874eb0dfc6e2cbe28d0dba0cc0d23149bb93c046788727_freezing_13.png",
+          "name": "freezing_13.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_14.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/e934f56053dee89944668a9ff16002afb5e6b7ed64dc07dd829f1b41277b6190_freezing_14.png",
+          "name": "freezing_14.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_15.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/db09a58639c0615fc1e91c44847f5523eb718a8612dc33d970f3363588225b5a_freezing_15.png",
+          "name": "freezing_15.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_16.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/226d140c5fb2f8e60336c5c01fc2929543e417c8932c1155669dc902d79de114_freezing_16.png",
+          "name": "freezing_16.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_17.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/e2ce410eb60926fb21b43ab8c68903eacc4bf57ca988e92ba9be92c5dad9c7cd_freezing_17.png",
+          "name": "freezing_17.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_18.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/15b832f5b350b276f9d2ac7029ad5b103dfee6dbf8f56144eaa2d843822fe5ea_freezing_18.png",
+          "name": "freezing_18.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_19.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/ca7a65128a45a332472506e0861817fd9f1d4c38a674b47b068d291889440d06_freezing_19.png",
+          "name": "freezing_19.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/b622175710325a1e704146cc31d7439d6609010f867eaea7ae5b2b8775784f1d_freezing_2.png",
+          "name": "freezing_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_20.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/e6545b8dd29edaf34ba1712c64c41cc8cae0104eef66ae60f98417bca2a3be54_freezing_20.png",
+          "name": "freezing_20.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_21.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/67217ee91595e6327522ef722faf13f677afccfb93805cd7583f6b597b0d22ce_freezing_21.png",
+          "name": "freezing_21.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_22.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/5aaa8b7b324b02ca404f632179a6351687b927087bc2c0b8ac32c412e5744243_freezing_22.png",
+          "name": "freezing_22.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_23.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/68c161d0e8fa8703393bd781865ae66a7ce907e90d394a9a52de7a2baf318861_freezing_23.png",
+          "name": "freezing_23.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_24.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/7186d77454fbd36f71daa9f4a0d7526368c3b319e6d8124ce3f30720da9e410a_freezing_24.png",
+          "name": "freezing_24.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_25.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/8f7c6a8f6eebb0eaf9c7be986c09e1e25b23f0b28dffcb00a0ce9ee038a93a73_freezing_25.png",
+          "name": "freezing_25.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_26.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/06b5124e0755b0ad2e2c1ededd6d2689c9ecae9d674da3a4c49ece674514ae7c_freezing_26.png",
+          "name": "freezing_26.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_27.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/85b20deaa53ccbea5eaa06a44f78a40da9607fa4239eaa0568049f1de60dca2e_freezing_27.png",
+          "name": "freezing_27.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_28.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_28.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/d489c809b9d1c8255f8d3ec36c93d7859df566bdabb78a88c5cf668e6a4aa846_freezing_28.png",
+          "name": "freezing_28.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_29.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_29.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/dff7ef12af2609bbff56c567f9d5fdb617f33d9aa6ed1da3603c0a2a27ce9ef4_freezing_29.png",
+          "name": "freezing_29.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/1d9446046aa054f2f86e9c7e56b3fa8122421cf47b133d397468a76a908f9c24_freezing_3.png",
+          "name": "freezing_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_30.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_30.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/482848213ba00e977f4acf21e5d1a13a35ecf319f54a60ce6e9969c416d00a30_freezing_30.png",
+          "name": "freezing_30.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_31.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_31.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/c93e4f91611e3b9843aa3198c2adf457cdb673eb36a2c482f74346c2dda5887c_freezing_31.png",
+          "name": "freezing_31.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_32.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/b1ef281806e531005f44fc4e9f2cbd36719b69562b9283c5d3728637d261eba6_freezing_32.png",
+          "name": "freezing_32.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_33.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/356063d0fbe69f00c57b3ebf52180be8aa33717f52e8b75d91c491bd6c46984d_freezing_33.png",
+          "name": "freezing_33.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_34.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/34d075c6900a0c2ab2080088e8833da2db4892ea58822138ba1afaeec0e3ec4e_freezing_34.png",
+          "name": "freezing_34.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_35.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_35.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/b36d6cdefd6f7f1c4584bab7802c7cb61fe40db68d99e9e4151c213689215bad_freezing_35.png",
+          "name": "freezing_35.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_36.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/70f5de0f842e4719200b82acc8d35a8cacfc558006ea679579426e5f366360dc_freezing_36.png",
+          "name": "freezing_36.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_37.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_37.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/567928b25cf13802f728337b2ed6a50813d000704f8055f25f51917d35a1781e_freezing_37.png",
+          "name": "freezing_37.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_38.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_38.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/e73cc4ccd13fb89da6b92b50080f0fc89ebbcbbf28ea5d39a0c3dd643857bb63_freezing_38.png",
+          "name": "freezing_38.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_39.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_39.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/736caee69ef311df317762857271c4734f19d8142c9c9cfeddcef0ca13984d87_freezing_39.png",
+          "name": "freezing_39.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/a2c06dc69bb8726bd3f1c4e19490ec2d45702aec468fed05b240a22ff46746c8_freezing_4.png",
+          "name": "freezing_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_40.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_40.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/0f5f1dfb51d13a90dbfa0f16a426897dc6bf9c225150d8a9be8bd005793182ca_freezing_40.png",
+          "name": "freezing_40.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_41.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_41.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/3fed04f2bc241a293e846f00c679d854537f72cfed079eca8d730ffff19ed2b9_freezing_41.png",
+          "name": "freezing_41.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_42.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_42.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/842d1d3bec7980a71d3666f35c30086371855a865aafa50ca2c252151811c6c5_freezing_42.png",
+          "name": "freezing_42.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_43.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_43.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/8ea43527c021c9960e2f9c0d9749587fa284c767959d5df63c50df25876c9232_freezing_43.png",
+          "name": "freezing_43.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_44.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_44.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/7a6c1650f79ced577e412c9d18ca5acd13decd234b6550fbfc0f7e8a4ce07d96_freezing_44.png",
+          "name": "freezing_44.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_45.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_45.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/33eb0fd8d5a41db0863cfb5b9581e04b02180522c1a6168db5ef48115c0e4ed3_freezing_45.png",
+          "name": "freezing_45.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_46.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_46.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/bdf0c27ccc5af482d2c1f2b7da32bcdf3d68475f176a29b38f096e0f20d17a09_freezing_46.png",
+          "name": "freezing_46.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_47.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_47.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/d415e76ea5f69ee01274fb20a1083dac26f8555d55d86cb82cdd6cccb3128989_freezing_47.png",
+          "name": "freezing_47.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_48.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_48.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/550a2170c6e8e5973eb3f0da013f312b47e3bf4a76bf52c2c0f5250237c90d9d_freezing_48.png",
+          "name": "freezing_48.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_49.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_49.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/cf9305636ff97cf371754950154d125ac99ad82d7c42657dc44ba540fddca305_freezing_49.png",
+          "name": "freezing_49.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/f78d49d7ffd3d13e21b94c33e353ad5a37e7da9f00d485f10188847fc5bd679a_freezing_5.png",
+          "name": "freezing_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_50.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_50.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/d8f14c6f5aae528fec7f4fb38483b79e7155eff592ca40aa900d71134a0f7eb6_freezing_50.png",
+          "name": "freezing_50.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_51.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_51.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/4f13873d4ec55eaba564348bac4314c573839c075948b5ae1201b6214bd0aef2_freezing_51.png",
+          "name": "freezing_51.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_52.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_52.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/f126426afd2a2ca2d08a59dac5e595b8d1d70eb9000523b7345e772f7728a5e6_freezing_52.png",
+          "name": "freezing_52.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_53.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_53.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/0f4b1cce29221a1b8a28b46e5f1cbcc25a938a4ddef74b982315310eb43fcf99_freezing_53.png",
+          "name": "freezing_53.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_54.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_54.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/7690f03c41837cf02e715fb04f710c72d7004ead27a2a622f957da728d023ee3_freezing_54.png",
+          "name": "freezing_54.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_55.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_55.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/587bffde31780eb35756cab79bda40eb415e8c3d84d537f7ec43bc7eb127ee5f_freezing_55.png",
+          "name": "freezing_55.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_56.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_56.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/3faf47b403c9cf39b0c7c648892e18586ac084713bb5cf0df48c93aa6c1a65df_freezing_56.png",
+          "name": "freezing_56.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_57.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_57.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/46aca385d007d5da129282ba92854bfd6039dff17deda9871bd57ac1e69229a1_freezing_57.png",
+          "name": "freezing_57.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_58.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_58.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/30121668ffba9cc1eb3b973dcb9fe8eac2426657637c7b707ae1b62953d13486_freezing_58.png",
+          "name": "freezing_58.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_59.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_59.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/b15b1e72269a43ffd670b01f76b5a1f60b37aadc536c2bf54469a24ebb1de6b3_freezing_59.png",
+          "name": "freezing_59.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/02b6872a55caa9136731b1a42088f06409fe4002758fe8f5f48ac0e6fe3f77f2_freezing_6.png",
+          "name": "freezing_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_60.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_60.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/c35f39a2978c69602d5d0001601a5e9b67d16d903ba79d27b1532f02d359b115_freezing_60.png",
+          "name": "freezing_60.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_61.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_61.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/3d624e11bde023d66ee98103b9493fad91e408db82c09a6b8406e5bfd921fb82_freezing_61.png",
+          "name": "freezing_61.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_62.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_62.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/3849ecbc8970be33dab2b8c4c5c6295f339d1a26a420bc77538cc48fe392eca7_freezing_62.png",
+          "name": "freezing_62.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_63.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_63.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/9fbb975a7f9cf4a581f371733d4d6720e9d0b0ef1dd416cc2157027457642e21_freezing_63.png",
+          "name": "freezing_63.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_64.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_64.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/5565d2dbd9ec82edfbf2ea7c607103dfe3348eacc346bd6e85bad01070e2ee3c_freezing_64.png",
+          "name": "freezing_64.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_65.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_65.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/5360a6420064bce92f27aa36444f6f3eb0480de175a41c223c508a32d5e797e5_freezing_65.png",
+          "name": "freezing_65.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_66.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_66.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/54201e5d7a99eb7453596a8617d334c0d7f3e3d036e067ba1a0c9a0225cfeb49_freezing_66.png",
+          "name": "freezing_66.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_67.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_67.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/31a86f801b51afbded27a4ee4223e01e7289add4ec562b40b7bbdf1c54ab047f_freezing_67.png",
+          "name": "freezing_67.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_68.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_68.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/b043369adac0b1fb9a90cc674fcb52c0612300d00e046a4e4c9f7702fe7bb9f1_freezing_68.png",
+          "name": "freezing_68.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_69.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_69.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/c27c5b0dc5a7ccda303c02ee7df75d2497374436512f79c63e327486feeb393f_freezing_69.png",
+          "name": "freezing_69.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/074acad737b73b7d455d473be9470f8a7f2ab8f975c4a40aea0f16be3e39e97e_freezing_7.png",
+          "name": "freezing_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_70.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_70.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/6bd9af060baeadeee0130410f70d281723f7cfb876b751c46ab41d1d2cb70fc7_freezing_70.png",
+          "name": "freezing_70.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_71.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_71.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/f5fb75f67d506e76af043f71bac9707ba61187a6962929ca9baefbb858942049_freezing_71.png",
+          "name": "freezing_71.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_72.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_72.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/acff3606cb79b0519ba892392b8168bb576a8a62a47f00d1dcea570e304020f3_freezing_72.png",
+          "name": "freezing_72.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_73.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_73.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/21f6c2ad2440702df6728d8727f064cbc4d88064d163203c829ed9613753c30c_freezing_73.png",
+          "name": "freezing_73.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_74.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_74.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/dcce4b087bd643d5d6a118340db54e1f860883ed3ec265e9ed5286c1989be183_freezing_74.png",
+          "name": "freezing_74.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_75.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_75.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/37f5a7ed71a4166c22b66d3cb9e1918a27d8ad7674be11155b140c666f9b73ed_freezing_75.png",
+          "name": "freezing_75.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_76.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_76.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/7bab3aea332cd915d17e6348eb5bd5879aa3679164b90fcde49a1d585736191b_freezing_76.png",
+          "name": "freezing_76.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_77.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_77.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/1120853cf256e4c49fb434585a02934434e2ea1a83b05f3ccd2c6836d00b62c1_freezing_77.png",
+          "name": "freezing_77.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_78.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_78.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/f9e60ab8b4ad6752bd79c9233a3aa7b074deb82879d9c1537fb49c7806eb24e5_freezing_78.png",
+          "name": "freezing_78.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_79.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_79.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/b5b7b875d1bc0a86687bdec197fb4716fe516fca9346807cd66f877f0e99c73a_freezing_79.png",
+          "name": "freezing_79.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/bb266a14192714bfaff48ae79672546eb7fd663f5ae8562273bf6fba86f23034_freezing_8.png",
+          "name": "freezing_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_80.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_80.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/c0fc5294c461dc0e6cc2f5741f4f2bc7f7b586bc368dfcd044f57749c261f8c1_freezing_80.png",
+          "name": "freezing_80.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_81.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_81.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/ce208d0e503d702ec1da582280217c857d185f5ccd4d4dcd712cde73702a751a_freezing_81.png",
+          "name": "freezing_81.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_82.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_82.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/570ffc160029c7c53e8610a2a41dabce8035e4b826cd332f4a5dd3167f574fa3_freezing_82.png",
+          "name": "freezing_82.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_83.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_83.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/28257628cb72b8ecaf7dd270990e0edd7ee1a51cd8b967c80d53609c9db258d4_freezing_83.png",
+          "name": "freezing_83.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_84.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_84.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/50ef10d9255e2d5391be743947b785dd28d3154bd69973d053dc694910d04e25_freezing_84.png",
+          "name": "freezing_84.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_85.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_85.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/33368c40573cab19b753980b608f24df195cbb4902c00c3aa9e1d24c3ca7dc64_freezing_85.png",
+          "name": "freezing_85.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_86.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_86.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/1f09953a6e3a9ab415fbc4b01143667c0fac9bfd8c39b1ba4b8c62c522985cf2_freezing_86.png",
+          "name": "freezing_86.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/freezing_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/0ee65cfe1002ffb72d7d8e5e5397708fddc8657445bedfd28da16345acbf9754_freezing_9.png",
+          "name": "freezing_9.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fire Burning_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Burning_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Robot J5/809f085c48c82d513aeb1f8813718b20bcf01d23054d434940c0936d23f51a07_Fire Burning_1.png",
+          "name": "Fire Burning_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fire Burning_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Burning_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Robot J5/c985c99af2b3f422ddb07dea0850d698fc69a64317bd1677dce6f38fbbe9f5ac_Fire Burning_2.png",
+          "name": "Fire Burning_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fire Burning_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Burning_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Robot J5/4c61d3e32b18bc45e1d3af39133ad76ded0a1fb663b80e18e63812e1c5d0540a_Fire Burning_3.png",
+          "name": "Fire Burning_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fire Burning_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Burning_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Robot J5/0511b341f82513388f408f7b355a8e87161e139b830aca57972071cda05c457c_Fire Burning_4.png",
+          "name": "Fire Burning_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Campfire_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Campfire_No Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Non Combat Actions/e732df12dd7fbff850de517b7dfe4992008c68d9f6fa44812cb94a546381631f_Campfire_No Shadow.png",
+          "name": "Campfire_No Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Campfire_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Campfire_Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Non Combat Actions/e17db548309fb85a7be86018b4a7df7c5d34193efeb8ecf531bd44e5f238a001_Campfire_Shadow.png",
+          "name": "Campfire_Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skull.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skull.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Items/34a46b901f5926fc1dfa1553e1ba7b16ee9d1627c17b0a26f5b10d2d349a1d89_Skull.png",
+          "name": "Skull.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Chest_Closed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chest_Closed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Items/Chest/f8965b683fff88c13806b14595718f37673588271c5d88b9ff5a2168069d600b_Chest_Closed.png",
+          "name": "Chest_Closed.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Chest_Empty Open_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chest_Empty Open_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Items/Chest/f8965b683fff88c13806b14595718f37673588271c5d88b9ff5a2168069d600b_Chest_Empty Open_1.png",
+          "name": "Chest_Empty Open_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Chest_Empty Open_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chest_Empty Open_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Items/Chest/9e232927ca40159da28525fb294cce71d0224c916bd7b399b8fa12199b526b3d_Chest_Empty Open_2.png",
+          "name": "Chest_Empty Open_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Chest_Empty Open_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chest_Empty Open_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Items/Chest/c0dcbe5a8c82bcc31f66131f7dd40597f989f0613c2ba2e7c3d68de3dd291591_Chest_Empty Open_3.png",
+          "name": "Chest_Empty Open_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Chest_Full Open_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chest_Full Open_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Items/Chest/f8965b683fff88c13806b14595718f37673588271c5d88b9ff5a2168069d600b_Chest_Full Open_1.png",
+          "name": "Chest_Full Open_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Chest_Full Open_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chest_Full Open_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Items/Chest/bd52968e726a338bc281f3d1c46cbac6613a82943b009d3065d522f30366b816_Chest_Full Open_2.png",
+          "name": "Chest_Full Open_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Chest_Full Open_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chest_Full Open_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Items/Chest/0abf08b8560409410459f12596e0dfa3351dfca72d0d5b993cb75037c73f0306_Chest_Full Open_3.png",
+          "name": "Chest_Full Open_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Chest_Mimic Open_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chest_Mimic Open_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Items/Chest/f8965b683fff88c13806b14595718f37673588271c5d88b9ff5a2168069d600b_Chest_Mimic Open_1.png",
+          "name": "Chest_Mimic Open_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Chest_Mimic Open_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chest_Mimic Open_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Items/Chest/5b74aa4bf4fbfd0018a6bf4bbf341c6af1beb2c23599d50532dafe630f6e7920_Chest_Mimic Open_2.png",
+          "name": "Chest_Mimic Open_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Chest_Mimic Open_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chest_Mimic Open_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Items/Chest/215c553c30faf2bb2c8364deb80cef93705b0089b7c657f21049723dd8501a46_Chest_Mimic Open_3.png",
+          "name": "Chest_Mimic Open_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Spikes.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Spikes.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Traps/Spikes/9728e7ce3b9e8fc40dd7f91a8553a1d6818f5e4026cdbe05293716d4fc796b12_Spikes.png",
+          "name": "Spikes.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -1057,6 +2409,186 @@
           "x": 128,
           "y": 384,
           "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "Skull",
+          "persistentUuid": "14d6dc77-4e6c-474e-8a23-10b6fb0fdf01",
+          "width": 32,
+          "x": 672,
+          "y": 192,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "name": "Chest",
+          "persistentUuid": "1bd618e6-813f-4922-9a5d-ae4c89026387",
+          "width": 64,
+          "x": 672,
+          "y": 128,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "name": "FireBurning",
+          "persistentUuid": "c4635732-0327-40e5-b550-6060eab6c97b",
+          "width": 64,
+          "x": 64,
+          "y": 480,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "Skull",
+          "persistentUuid": "9d22ea95-f15a-4f18-b092-5871637eb439",
+          "width": 32,
+          "x": 128,
+          "y": 480,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "name": "Skull",
+          "persistentUuid": "c345983c-dbe5-44f7-93b8-68d408e2cc8e",
+          "width": 64,
+          "x": 128,
+          "y": 480,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "Skull",
+          "persistentUuid": "0a1461de-a396-4bb2-b3d6-b1769fac44bf",
+          "width": 32,
+          "x": 160,
+          "y": 480,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "Spikes",
+          "persistentUuid": "09579fc1-8675-4647-bf5c-45d48ea7cd49",
+          "width": 32,
+          "x": 96,
+          "y": 160,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "Spikes",
+          "persistentUuid": "d65cb8d9-0f6b-4256-9415-46ce0683eff9",
+          "width": 32,
+          "x": 128,
+          "y": 160,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "Spikes",
+          "persistentUuid": "38719306-a823-4f51-96c4-db9857d77b87",
+          "width": 32,
+          "x": 96,
+          "y": 192,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "Spikes",
+          "persistentUuid": "0f45d5d1-3233-49c9-a77f-879732ddd008",
+          "width": 32,
+          "x": 128,
+          "y": 192,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "Skull",
+          "persistentUuid": "288a8373-774c-4cbc-9046-492b10b8b4d6",
+          "width": 32,
+          "x": 128,
+          "y": 192,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Skull",
+          "persistentUuid": "7e8988b9-6c55-4a22-a601-9c35201257ea",
+          "width": 0,
+          "x": 640,
+          "y": 176,
+          "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2086,6 +3618,1896 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "Penguin_Waddling_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "397268a8ea2af0bbaaa0456432173c09cf3da6fecb3c577f3afe43612c8b9534",
+          "name": "Freezing",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.011599999852478504,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_13.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_14.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_15.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_16.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_17.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_18.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_19.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_20.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_21.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_22.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_23.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_24.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_25.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_26.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_27.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_28.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_29.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_30.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_31.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_32.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_33.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_34.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_35.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_36.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_37.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_38.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_39.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_40.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_41.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_42.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_43.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_44.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_45.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_46.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_47.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_48.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_49.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_50.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_51.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_52.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_53.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_54.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_55.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_56.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_57.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_58.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_59.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_60.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_61.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_62.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_63.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_64.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_65.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_66.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_67.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_68.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_69.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_70.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_71.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_72.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_73.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_74.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_75.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_76.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_77.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_78.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_79.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_80.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_81.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_82.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_83.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_84.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_85.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "freezing_86.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "cb1005eb4d5965a6abbdd8e4da1f3719a5d8cd45a13f2835591a321398708c0c",
+          "name": "FireBurning",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.25,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Fire Burning_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Fire Burning_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Fire Burning_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Fire Burning_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "5a20de8e2df3d46aa257675135f8a59edd0f3c83062fec6abfc3fcf9eb05eb74",
+          "name": "Skull",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.02500000037252903,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skull.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "312d94d06b5fb0bb3390c954d6cd0ed5e5a54d84631b1270ecbfa9a241b323f2",
+          "name": "Chest",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Closed",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.02500000037252903,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Chest_Closed.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Empty Open",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.25,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Chest_Empty Open_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Chest_Empty Open_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Chest_Empty Open_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Full Open",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.25,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Chest_Full Open_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Chest_Full Open_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Chest_Full Open_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Mimic Open",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.25,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Chest_Mimic Open_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Chest_Mimic Open_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Chest_Mimic Open_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "ad5eec3101f5acd69d381481f39db03d7eabbf96c9681c66bee04f5e78f38a85",
+          "name": "Spikes",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.02500000037252903,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Spikes.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
