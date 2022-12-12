@@ -2355,6 +2355,15 @@
         "name": "door23.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/door2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\door2.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -9257,28 +9266,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 386,
-          "layer": "",
-          "name": "Door",
-          "persistentUuid": "e3f3ee5d-25bf-42c2-a811-6b1ed86db3d1",
-          "width": 506,
-          "x": 751,
-          "y": 147,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 64,
           "layer": "",
           "name": "Penguin",
           "persistentUuid": "4e6f2a51-be49-4b29-91f4-844f07f41ed0",
           "width": 64,
-          "x": 209,
-          "y": 299,
+          "x": 138,
+          "y": 298,
           "zOrder": 50,
           "numberProperties": [],
           "stringProperties": [],
@@ -9647,14 +9641,44 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 213,
+          "height": 222,
           "layer": "",
           "name": "ground",
           "persistentUuid": "430a0b05-b895-4920-954a-ba9db9828579",
           "width": 768,
           "x": 0,
-          "y": 395,
+          "y": 386,
           "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 164,
+          "layer": "",
+          "name": "door",
+          "persistentUuid": "146c4adf-33ad-4a21-b3de-cbae8230e649",
+          "width": 164,
+          "x": 695,
+          "y": 272,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "TitleOfGamePart2",
+          "persistentUuid": "3b616bb8-4e3e-4567-bc9d-6b88c4815f22",
+          "width": 0,
+          "x": 240,
+          "y": 440,
+          "zOrder": 55,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9745,47 +9769,6 @@
         },
         {
           "assetStoreId": "",
-          "name": "Door",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "Room_Side2way_Doors4",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.07999999821186066,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\Room_Side2way_Doors4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
           "bold": false,
           "italic": false,
           "name": "TitleOfGamePart2",
@@ -9831,7 +9814,7 @@
           "behaviors": [],
           "string": "??",
           "font": "Orbitron-SemiBold.ttf",
-          "characterSize": 140,
+          "characterSize": 75,
           "color": {
             "b": 0,
             "g": 0,
@@ -12702,6 +12685,47 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "door",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\door2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -12725,7 +12749,7 @@
               },
               "parameters": [
                 "Penguin",
-                "Door",
+                "door",
                 "",
                 "",
                 ""
@@ -12906,7 +12930,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -12914,7 +12938,7 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": true,
+        "snap": false,
         "zoomFactor": 0.5814000000000005,
         "windowMask": false
       },
@@ -12959,28 +12983,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 608,
-          "layer": "",
-          "name": "Door",
-          "persistentUuid": "e3f3ee5d-25bf-42c2-a811-6b1ed86db3d1",
-          "width": 799,
-          "x": 0,
-          "y": 0,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 64,
           "layer": "",
           "name": "Penguin",
           "persistentUuid": "4e6f2a51-be49-4b29-91f4-844f07f41ed0",
           "width": 64,
-          "x": 160,
-          "y": 320,
+          "x": 138,
+          "y": 298,
           "zOrder": 50,
           "numberProperties": [],
           "stringProperties": [],
@@ -12995,7 +13004,7 @@
           "persistentUuid": "14d6dc77-4e6c-474e-8a23-10b6fb0fdf01",
           "width": 90,
           "x": 672,
-          "y": 124,
+          "y": 143,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -13349,14 +13358,59 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 192,
+          "height": 206,
           "layer": "",
           "name": "ground",
           "persistentUuid": "430a0b05-b895-4920-954a-ba9db9828579",
           "width": 768,
           "x": 0,
-          "y": 416,
+          "y": 402,
           "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 162,
+          "layer": "",
+          "name": "door",
+          "persistentUuid": "78a7d0a8-51ae-4f87-b600-5dc9ab4a940c",
+          "width": 157,
+          "x": 698,
+          "y": 282,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "enter",
+          "persistentUuid": "ba94b0d8-506f-4957-9159-0d26104f955a",
+          "width": 0,
+          "x": 205,
+          "y": 450,
+          "zOrder": 55,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 57,
+          "layer": "",
+          "name": "Monster",
+          "persistentUuid": "555cc51f-a027-4d1e-af96-f38bd3a83b1e",
+          "width": 53,
+          "x": 658,
+          "y": 137,
+          "zOrder": 56,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -13447,50 +13501,9 @@
         },
         {
           "assetStoreId": "",
-          "name": "Door",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\Room_Side2way_Doors4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
           "bold": false,
           "italic": false,
-          "name": "TitleOfGamePart2",
+          "name": "enter",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -13533,7 +13546,7 @@
           "behaviors": [],
           "string": "??",
           "font": "Orbitron-SemiBold.ttf",
-          "characterSize": 140,
+          "characterSize": 75,
           "color": {
             "b": 0,
             "g": 0,
@@ -16404,6 +16417,47 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "door",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\door2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -16432,6 +16486,46 @@
           },
           "comment": "Play Button",
           "comment2": ""
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "door",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Penguin",
+                "door",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level 6\"",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -16542,8 +16636,8 @@
           "name": "Penguin",
           "persistentUuid": "4e6f2a51-be49-4b29-91f4-844f07f41ed0",
           "width": 64,
-          "x": 364,
-          "y": 288,
+          "x": 366,
+          "y": 285,
           "zOrder": 50,
           "numberProperties": [],
           "stringProperties": [],
@@ -16916,10 +17010,10 @@
           "layer": "",
           "name": "Door2",
           "persistentUuid": "6ab2b49e-92e1-49c6-8110-6c303932ea23",
-          "width": 130,
-          "x": -44,
+          "width": 163,
+          "x": -58,
           "y": 272,
-          "zOrder": 55,
+          "zOrder": 61,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -16927,14 +17021,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 159,
+          "height": 157,
           "layer": "",
           "name": "door3",
           "persistentUuid": "c7e0e6b4-44f6-45a1-a1bc-7056202b185a",
-          "width": 122,
-          "x": 719,
-          "y": 277,
-          "zOrder": 56,
+          "width": 156,
+          "x": 700,
+          "y": 272,
+          "zOrder": 62,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -16942,7 +17036,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 80,
+          "height": 51,
           "layer": "",
           "name": "door0or1",
           "persistentUuid": "bdcb6cf4-f2ee-4cad-b213-e78d85080df6",
@@ -16980,6 +17074,21 @@
           "x": 38,
           "y": 497,
           "zOrder": 59,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "TitleOfGamePart2",
+          "persistentUuid": "72d17352-db08-48ef-a1c9-db1f036a9b68",
+          "width": 0,
+          "x": 321,
+          "y": 442,
+          "zOrder": 60,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -17070,47 +17179,6 @@
         },
         {
           "assetStoreId": "",
-          "name": "Door",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\Room_Side2way_Doors4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
           "bold": false,
           "italic": false,
           "name": "TitleOfGamePart2",
@@ -17156,7 +17224,7 @@
           "behaviors": [],
           "string": "??",
           "font": "Orbitron-SemiBold.ttf",
-          "characterSize": 140,
+          "characterSize": 75,
           "color": {
             "b": 0,
             "g": 0,
