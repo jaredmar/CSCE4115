@@ -9186,7 +9186,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5814000000000005,
+        "zoomFactor": 0.8414000000000007,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -9230,13 +9230,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 608,
+          "height": 386,
           "layer": "",
           "name": "Door",
           "persistentUuid": "e3f3ee5d-25bf-42c2-a811-6b1ed86db3d1",
-          "width": 799,
-          "x": 0,
-          "y": 0,
+          "width": 506,
+          "x": 751,
+          "y": 147,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -9250,8 +9250,8 @@
           "name": "Penguin",
           "persistentUuid": "4e6f2a51-be49-4b29-91f4-844f07f41ed0",
           "width": 64,
-          "x": 160,
-          "y": 320,
+          "x": 209,
+          "y": 299,
           "zOrder": 50,
           "numberProperties": [],
           "stringProperties": [],
@@ -9620,13 +9620,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 192,
+          "height": 213,
           "layer": "",
           "name": "ground",
           "persistentUuid": "430a0b05-b895-4920-954a-ba9db9828579",
           "width": 768,
           "x": 0,
-          "y": 416,
+          "y": 395,
           "zOrder": 53,
           "numberProperties": [],
           "stringProperties": [],
@@ -12675,9 +12675,58 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewTextEntry",
+          "tags": "",
+          "type": "TextEntryObject::TextEntry",
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Door",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Penguin",
+                "Door",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level 3\"",
+                ""
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
