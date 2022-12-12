@@ -908,15 +908,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
-        "file": "assets/Room_Side2way_Doors4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Room_Side2way_Doors4.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "Orbitron-SemiBold.ttf",
         "kind": "font",
         "metadata": "",
@@ -2328,6 +2319,42 @@
         "name": "creature-sheet2.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Room_Side2way_Doors4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Room_Side2way_Doors4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "door2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "door2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "door22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "door22.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "door23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "door23.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -9186,7 +9213,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8414000000000007,
+        "zoomFactor": 0.6614000000000005,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -9727,12 +9754,12 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "Room_Side2way_Doors4",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
@@ -12675,15 +12702,6 @@
               ]
             }
           ]
-        },
-        {
-          "assetStoreId": "",
-          "name": "NewTextEntry",
-          "tags": "",
-          "type": "TextEntryObject::TextEntry",
-          "variables": [],
-          "effects": [],
-          "behaviors": []
         }
       ],
       "events": [
@@ -16466,7 +16484,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -16474,7 +16492,7 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": true,
+        "snap": false,
         "zoomFactor": 0.5814000000000005,
         "windowMask": false
       },
@@ -16519,28 +16537,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 608,
-          "layer": "",
-          "name": "Door",
-          "persistentUuid": "e3f3ee5d-25bf-42c2-a811-6b1ed86db3d1",
-          "width": 799,
-          "x": 0,
-          "y": 0,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 64,
           "layer": "",
           "name": "Penguin",
           "persistentUuid": "4e6f2a51-be49-4b29-91f4-844f07f41ed0",
           "width": 64,
-          "x": 160,
-          "y": 320,
+          "x": 364,
+          "y": 288,
           "zOrder": 50,
           "numberProperties": [],
           "stringProperties": [],
@@ -16554,8 +16557,8 @@
           "name": "Skull",
           "persistentUuid": "14d6dc77-4e6c-474e-8a23-10b6fb0fdf01",
           "width": 90,
-          "x": 672,
-          "y": 124,
+          "x": 681,
+          "y": 102,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -16569,8 +16572,8 @@
           "name": "Chest",
           "persistentUuid": "1bd618e6-813f-4922-9a5d-ae4c89026387",
           "width": 64,
-          "x": 64,
-          "y": 160,
+          "x": 41,
+          "y": 117,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -16614,8 +16617,8 @@
           "name": "Skull",
           "persistentUuid": "c345983c-dbe5-44f7-93b8-68d408e2cc8e",
           "width": 64,
-          "x": 292,
-          "y": 171,
+          "x": 282,
+          "y": 136,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -16639,13 +16642,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 24,
+          "height": 31,
           "layer": "",
           "name": "Spikes",
           "persistentUuid": "09579fc1-8675-4647-bf5c-45d48ea7cd49",
-          "width": 32,
-          "x": 349,
-          "y": 199,
+          "width": 34,
+          "x": 344,
+          "y": 159,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -16674,8 +16677,8 @@
           "name": "Spikes",
           "persistentUuid": "38719306-a823-4f51-96c4-db9857d77b87",
           "width": 32,
-          "x": 379,
-          "y": 191,
+          "x": 377,
+          "y": 148,
           "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],
@@ -16719,8 +16722,8 @@
           "name": "Skull",
           "persistentUuid": "7e8988b9-6c55-4a22-a601-9c35201257ea",
           "width": 25,
-          "x": 634,
-          "y": 168,
+          "x": 632,
+          "y": 158,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -16809,8 +16812,8 @@
           "name": "FireBurning",
           "persistentUuid": "ba6018b0-127f-482e-ab18-a5f12a5cc439",
           "width": 0,
-          "x": 640,
-          "y": 192,
+          "x": 606,
+          "y": 152,
           "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
@@ -16824,8 +16827,8 @@
           "name": "FireBurning",
           "persistentUuid": "ef71ea04-7359-4272-b31a-948fb17ae004",
           "width": 32,
-          "x": 151,
-          "y": 160,
+          "x": 105,
+          "y": 151,
           "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
@@ -16839,8 +16842,8 @@
           "name": "FireBurning",
           "persistentUuid": "4b6f91ff-4e79-4d9a-b695-0425549cc8f0",
           "width": 0,
-          "x": 57,
-          "y": 236,
+          "x": 325,
+          "y": 134,
           "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
@@ -16854,8 +16857,8 @@
           "name": "Skull",
           "persistentUuid": "be5033aa-99f1-40a5-9410-b24377d60767",
           "width": 25,
-          "x": 349,
-          "y": 186,
+          "x": 356,
+          "y": 150,
           "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [],
@@ -16869,8 +16872,8 @@
           "name": "Skull",
           "persistentUuid": "8bfa2670-436a-45d7-ae42-b4c229163a6a",
           "width": 87,
-          "x": 348,
-          "y": 153,
+          "x": 231,
+          "y": 112,
           "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
@@ -16892,16 +16895,16 @@
           "initialVariables": []
         },
         {
-          "angle": 138.96536254882812,
+          "angle": 0,
           "customSize": true,
-          "height": 135,
+          "height": 213,
           "layer": "",
-          "name": "Freezing",
-          "persistentUuid": "9956c3c1-895b-4521-94a9-bd6b7cbacf39",
-          "width": 122,
-          "x": 35,
-          "y": 130,
-          "zOrder": 9,
+          "name": "ground",
+          "persistentUuid": "430a0b05-b895-4920-954a-ba9db9828579",
+          "width": 768,
+          "x": 28,
+          "y": 386,
+          "zOrder": 53,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -16909,14 +16912,74 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 192,
+          "height": 163,
           "layer": "",
-          "name": "ground",
-          "persistentUuid": "430a0b05-b895-4920-954a-ba9db9828579",
-          "width": 768,
-          "x": 0,
-          "y": 416,
-          "zOrder": 53,
+          "name": "Door2",
+          "persistentUuid": "6ab2b49e-92e1-49c6-8110-6c303932ea23",
+          "width": 130,
+          "x": -44,
+          "y": 272,
+          "zOrder": 55,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 159,
+          "layer": "",
+          "name": "door3",
+          "persistentUuid": "c7e0e6b4-44f6-45a1-a1bc-7056202b185a",
+          "width": 122,
+          "x": 719,
+          "y": 277,
+          "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 80,
+          "layer": "",
+          "name": "door0or1",
+          "persistentUuid": "bdcb6cf4-f2ee-4cad-b213-e78d85080df6",
+          "width": 682,
+          "x": 79,
+          "y": 228,
+          "zOrder": 57,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 58,
+          "layer": "",
+          "name": "Monster",
+          "persistentUuid": "7ea67a24-f4c6-46e6-8ba3-3b202cc2bf2f",
+          "width": 51,
+          "x": 592,
+          "y": 483,
+          "zOrder": 58,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 57,
+          "layer": "",
+          "name": "Monster",
+          "persistentUuid": "308fc312-6fed-430c-91ed-7430e05f37a5",
+          "width": 52,
+          "x": 38,
+          "y": 497,
+          "zOrder": 59,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -19964,6 +20027,109 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Door2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "door22.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "door3",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "door23.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "door0or1",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "0                      or                       1",
+          "font": "Orbitron-SemiBold.ttf",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
         }
       ],
       "events": [
@@ -19992,6 +20158,86 @@
           },
           "comment": "Play Button",
           "comment2": ""
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Door0",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Penguin",
+                "Door2",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level 7\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Door1",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Penguin",
+                "door3",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level 5\"",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
