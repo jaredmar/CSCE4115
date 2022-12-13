@@ -26,7 +26,7 @@ Game play and layout:
   you will go through the door called 01
 - You are now in level 3 where you will defeat another minion and this time after the minion
   is defeated you can choose between 2 doors "0 or 1" 
-- Now you are in level 4 where you be in a bit of a harder level and defeat the minons there
+- Now you are in level 4 where you will be in a bit of a harder level and defeat the minons there
   once those minions are defeated there will be one more choice of "0 or 1" that will take you
   to the boss level.
 - The boss level will have one or more Boss monsters that you will have to defeat to win the game!
