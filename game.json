@@ -3254,15 +3254,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Zombie.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Zombie.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Devo the Devil_Falling.png",
         "kind": "image",
         "metadata": "",
@@ -3373,6 +3364,42 @@
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Zombie.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Zombie.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Zombie-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Zombie-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Zombie-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Zombie-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Health Bar Box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Health Bar Box.png",
+        "smoothed": true,
         "userAdded": true
       }
     ],
@@ -10614,7 +10641,20 @@
           "zOrder": 75,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Health",
+              "type": "number",
+              "value": 5
+            },
+            {
+              "folded": true,
+              "name": "MaxHealth",
+              "type": "number",
+              "value": 5
+            }
+          ]
         },
         {
           "angle": 0,
@@ -11044,8 +11084,8 @@
           "name": "zombie",
           "persistentUuid": "0eaa7aa1-c463-4367-8dff-48c92352899f",
           "width": 56,
-          "x": 656,
-          "y": 321,
+          "x": 446,
+          "y": 329,
           "zOrder": 57,
           "numberProperties": [],
           "stringProperties": [],
@@ -11062,6 +11102,21 @@
           "x": 124,
           "y": 354,
           "zOrder": 58,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 15,
+          "layer": "",
+          "name": "Health",
+          "persistentUuid": "b36b4f74-f058-43c2-bcd8-e503bff0645e",
+          "width": 684,
+          "x": 62,
+          "y": 107,
+          "zOrder": 76,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11261,6 +11316,13 @@
             }
           ],
           "behaviors": [
+            {
+              "name": "Flash",
+              "type": "Flash::Flash",
+              "HalfPeriodTime": 0.5,
+              "IsFlashing": false,
+              "FlashDuration": 0
+            },
             {
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
@@ -14100,16 +14162,33 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "Zombie",
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "looping": true,
+                  "timeBetweenFrames": 0.5,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
                       "image": "assets\\Zombie.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Zombie-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14129,6 +14208,23 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 6,
+          "height": 15,
+          "leftMargin": 11,
+          "name": "Health",
+          "rightMargin": 9,
+          "tags": "",
+          "texture": "assets\\Health Bar Box.png",
+          "tiled": true,
+          "topMargin": 6,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 96,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -14197,6 +14293,124 @@
           },
           "comment": "Play Button",
           "comment2": ""
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Healthbar",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Penguin",
+                "zombie",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Flash::Flash::IsFlashing"
+              },
+              "parameters": [
+                "Penguin",
+                "Flash",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Penguin",
+                "Health",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Flash::Flash::Flash"
+              },
+              "parameters": [
+                "Penguin",
+                "Flash",
+                "1.5",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PanelSpriteObject::Width"
+              },
+              "parameters": [
+                "Health",
+                "=",
+                "680/Penguin.Variable(MaxHealth)*Penguin.Variable(Health)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Penguin",
+                "Health",
+                "<=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Title Screen\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -14224,6 +14438,10 @@
         }
       ],
       "behaviorsSharedData": [
+        {
+          "name": "Flash",
+          "type": "Flash::Flash"
+        },
         {
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior"
@@ -17817,10 +18035,23 @@
           "width": 64,
           "x": 363,
           "y": 26,
-          "zOrder": 75,
+          "zOrder": 82,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Health",
+              "type": "number",
+              "value": 5
+            },
+            {
+              "folded": true,
+              "name": "MaxHealth",
+              "type": "number",
+              "value": 5
+            }
+          ]
         },
         {
           "angle": 0,
@@ -18331,6 +18562,81 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "name": "monster2",
+          "persistentUuid": "6e26084b-cb63-4776-a1b7-2d595a855822",
+          "width": 75,
+          "x": 635,
+          "y": 292,
+          "zOrder": 76,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "name": "monster2",
+          "persistentUuid": "95095095-fdaf-479e-b5c9-7f84a05f87c8",
+          "width": 75,
+          "x": 88,
+          "y": 293,
+          "zOrder": 77,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 72,
+          "layer": "",
+          "name": "monster2",
+          "persistentUuid": "a9f12292-6469-4b59-9792-1440e3440d4a",
+          "width": 54,
+          "x": 501,
+          "y": 342,
+          "zOrder": 76,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 72,
+          "layer": "",
+          "name": "monster2",
+          "persistentUuid": "97ce3069-58b4-48bd-8eb9-23711eaa321d",
+          "width": 54,
+          "x": 229,
+          "y": 341,
+          "zOrder": 76,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 15,
+          "layer": "",
+          "name": "HealthBarBox",
+          "persistentUuid": "ccdb95e3-54f7-474d-9bd7-38c76a8bffad",
+          "width": 684,
+          "x": 59,
+          "y": 108,
+          "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -18519,6 +18825,13 @@
             }
           ],
           "behaviors": [
+            {
+              "name": "Flash",
+              "type": "Flash::Flash",
+              "HalfPeriodTime": 0.75,
+              "IsFlashing": false,
+              "FlashDuration": 0
+            },
             {
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
@@ -21408,6 +21721,132 @@
             "g": 0,
             "r": 0
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "monster2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Zombie",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.5,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Zombie-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Zombie-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Zombie-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Zombie-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 6,
+          "height": 15,
+          "leftMargin": 11,
+          "name": "Health",
+          "rightMargin": 9,
+          "tags": "",
+          "texture": "assets\\Health Bar Box.png",
+          "tiled": true,
+          "topMargin": 6,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 96,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "138ee716846635e3e0e5ab7b63752d1a36754f1ac874c70e1b5fa372d5a05474",
+          "bottomMargin": 6,
+          "height": 15,
+          "leftMargin": 11,
+          "name": "HealthBarBox",
+          "rightMargin": 9,
+          "tags": "",
+          "texture": "Health Bar Box.png",
+          "tiled": true,
+          "topMargin": 6,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 96,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -21505,6 +21944,119 @@
               ]
             }
           ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "healthbar",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Penguin",
+                "monster2",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Flash::Flash::IsFlashing"
+              },
+              "parameters": [
+                "Penguin",
+                "Flash",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Penguin",
+                "Health",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Flash::Flash::Flash"
+              },
+              "parameters": [
+                "Penguin",
+                "Flash",
+                "1.5",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PanelSpriteObject::Width"
+              },
+              "parameters": [
+                "HealthBarBox",
+                "=",
+                "680/Penguin.Variable(MaxHealth)*Penguin.Variable(Health)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Penguin",
+                "Health",
+                "<=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Title Screen\"",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -21532,6 +22084,10 @@
         }
       ],
       "behaviorsSharedData": [
+        {
+          "name": "Flash",
+          "type": "Flash::Flash"
+        },
         {
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior"
@@ -27203,9 +27759,9 @@
           "effects": [],
           "behaviors": [
             {
-              "extraBorder": 1000,
               "name": "DestroyOutside",
-              "type": "DestroyOutsideBehavior::DestroyOutside"
+              "type": "DestroyOutsideBehavior::DestroyOutside",
+              "extraBorder": 1000
             }
           ],
           "animations": [
