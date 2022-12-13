@@ -2364,6 +2364,26 @@
         "name": "assets\\door2.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "2022-03-22_-_Age_Of_Mythology_-_www.FesliyanStudios.com.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "2022-03-22_-_Age_Of_Mythology_-_www.FesliyanStudios.com.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "2019-12-11_-_Retro_Platforming_-_David_Fesliyan.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "2019-12-11_-_Retro_Platforming_-_David_Fesliyan.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2935,28 +2955,7 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [
-            {
-              "acceleration": 1500,
-              "canGoDownFromJumpthru": true,
-              "canGrabPlatforms": false,
-              "canGrabWithoutMoving": true,
-              "deceleration": 1500,
-              "gravity": 1000,
-              "ignoreDefaultControls": false,
-              "jumpSpeed": 600,
-              "jumpSustainTime": 0.2,
-              "ladderClimbingSpeed": 150,
-              "maxFallingSpeed": 700,
-              "maxSpeed": 250,
-              "name": "PlatformerObject",
-              "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "useLegacyTrajectory": false,
-              "xGrabTolerance": 10,
-              "yGrabOffset": 0
-            }
-          ],
+          "behaviors": [],
           "animations": [
             {
               "name": "Idle",
@@ -5666,16 +5665,56 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ]
         }
       ],
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Beginning of Scene",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "2019-12-11_-_Retro_Platforming_-_David_Fesliyan.mp3",
+                "yes",
+                "30",
+                ""
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
@@ -5840,10 +5879,6 @@
         {
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior"
-        },
-        {
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior"
         },
         {
           "name": "Text_AutoTyping",
@@ -6203,6 +6238,51 @@
           "x": 672,
           "y": 160,
           "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "TitleOfLeveFadeOut",
+          "persistentUuid": "d7d96dd9-b9dd-4ea2-baf0-1f020166de3d",
+          "width": 0,
+          "x": 32,
+          "y": 192,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 25,
+          "layer": "",
+          "name": "IntroTextP1",
+          "persistentUuid": "76bfb6e8-a5f9-4743-b154-914e9a9eebd7",
+          "width": 480,
+          "x": 256,
+          "y": 295,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 25,
+          "layer": "",
+          "name": "IntroTextP2",
+          "persistentUuid": "781d3d99-4ea5-437f-a5ed-a19c3da6b5e7",
+          "width": 480,
+          "x": 256,
+          "y": 293,
+          "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9141,6 +9221,85 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TitleOfLeveFadeOut",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Start State",
+          "font": "Orbitron-SemiBold.ttf",
+          "characterSize": 120,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "IntroTextP1",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Text_AutoTyping",
+              "type": "AutoTyping::Text_AutoTyping",
+              "Interval": 0.07,
+              "CharacterJustAdded": false,
+              "CurrentCharacter": ""
+            }
+          ],
+          "string": "Welcome! This is a game structutred as a DFA. To finish the game, the player has to go through levels defeating monsters and finally a final boss.\n",
+          "font": "Orbitron-SemiBold.ttf",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "IntroTextP2",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Text_AutoTyping",
+              "type": "AutoTyping::Text_AutoTyping",
+              "Interval": 0.07,
+              "CharacterJustAdded": false,
+              "CurrentCharacter": ""
+            }
+          ],
+          "string": "Use the left and right arrow keys to move and left-click to shoot the enemies. Press SPACE to continue",
+          "font": "Orbitron-SemiBold.ttf",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
         }
       ],
       "events": [
@@ -9154,8 +9313,89 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Penguin",
+          "comment": "Begginning of the scene",
           "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "2019-12-11_-_Retro_Platforming_-_David_Fesliyan.mp3",
+                "yes",
+                "30",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "IntroTextP1",
+                "\"Timer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "IntroTextP2",
+                "\"TimerP2\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AutoTyping::Text_AutoTyping::Pause"
+              },
+              "parameters": [
+                "IntroTextP1",
+                "Text_AutoTyping",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AutoTyping::Text_AutoTyping::Pause"
+              },
+              "parameters": [
+                "IntroTextP2",
+                "Text_AutoTyping",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::Opacity"
+              },
+              "parameters": [
+                "TitleOfLeveFadeOut",
+                "=",
+                "lerp(TitleOfLeveFadeOut.Opacity(), 0, 0.03)"
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -9167,8 +9407,109 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Play Button",
+          "comment": "Text",
           "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "IntroTextP1",
+                "\"Timer\"",
+                ">",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AutoTyping::Text_AutoTyping::Resume"
+              },
+              "parameters": [
+                "IntroTextP1",
+                "Text_AutoTyping",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "IntroTextP1",
+                "\"Timer\"",
+                ">",
+                "17"
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "IntroTextP2",
+                "\"TimerP2\"",
+                ">",
+                "18"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "IntroTextP1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AutoTyping::Text_AutoTyping::Resume"
+              },
+              "parameters": [
+                "IntroTextP2",
+                "Text_AutoTyping",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Space"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level 2\"",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -9879,6 +10220,8 @@
           ],
           "behaviors": [
             {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1300,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -9891,9 +10234,7 @@
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
               "maxSpeed": 250,
-              "name": "PlatformerObject",
               "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "useLegacyTrajectory": false,
               "xGrabTolerance": 10,
               "yGrabOffset": 0
@@ -12608,10 +12949,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ]
@@ -12634,6 +12975,8 @@
           ],
           "behaviors": [
             {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -12646,9 +12989,7 @@
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
               "maxSpeed": 250,
-              "name": "PlatformerObject",
               "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "useLegacyTrajectory": false,
               "xGrabTolerance": 10,
               "yGrabOffset": 0
