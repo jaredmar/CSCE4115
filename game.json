@@ -10516,33 +10516,40 @@
                 ""
               ]
             }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Level 2\"",
+                    ""
+                  ]
+                }
+              ]
+            }
           ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Space"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Level 2\"",
-                ""
-              ]
-            }
-          ]
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -11124,6 +11131,21 @@
           "x": 428,
           "y": 211,
           "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "one",
+          "persistentUuid": "fd74ab8b-6a86-43a0-962a-1bc1f4bef9fe",
+          "width": 0,
+          "x": 723,
+          "y": 325,
+          "zOrder": 91,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -15155,6 +15177,27 @@
             "b": 255,
             "g": 255,
             "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "one",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "1",
+          "font": "Orbitron-SemiBold.ttf",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
           }
         }
       ],
@@ -25246,7 +25289,7 @@
           "name": "FireBurning",
           "persistentUuid": "8f110fec-fab9-4c96-964e-99dcb4da535b",
           "width": 80,
-          "x": 733,
+          "x": 738,
           "y": 284,
           "zOrder": 61,
           "numberProperties": [],
@@ -30637,8 +30680,8 @@
           "name": "Penguin",
           "persistentUuid": "de1b4e44-c923-4f5a-b559-740e77c5cc98",
           "width": 64,
-          "x": 54,
-          "y": -33,
+          "x": 352,
+          "y": -32,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
