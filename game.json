@@ -17623,7 +17623,7 @@
           "width": 64,
           "x": 363,
           "y": 26,
-          "zOrder": 50,
+          "zOrder": 75,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -18287,15 +18287,7 @@
           "underlined": false,
           "variables": [],
           "effects": [],
-          "behaviors": [
-            {
-              "name": "Text_AutoTyping",
-              "type": "AutoTyping::Text_AutoTyping",
-              "Interval": 0.26,
-              "CharacterJustAdded": false,
-              "CurrentCharacter": ""
-            }
-          ],
+          "behaviors": [],
           "string": "0                      or                       1",
           "font": "Orbitron-SemiBold.ttf",
           "characterSize": 40,
@@ -21332,10 +21324,6 @@
         {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
-        },
-        {
-          "name": "Text_AutoTyping",
-          "type": "AutoTyping::Text_AutoTyping"
         }
       ]
     },
