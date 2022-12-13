@@ -3242,6 +3242,15 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/creature-sheet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\creature-sheet.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -10477,8 +10486,8 @@
           "name": "Penguin",
           "persistentUuid": "4e6f2a51-be49-4b29-91f4-844f07f41ed0",
           "width": 64,
-          "x": 138,
-          "y": 298,
+          "x": 143,
+          "y": 283,
           "zOrder": 50,
           "numberProperties": [],
           "stringProperties": [],
@@ -10847,13 +10856,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 222,
+          "height": 198,
           "layer": "",
           "name": "ground",
           "persistentUuid": "430a0b05-b895-4920-954a-ba9db9828579",
           "width": 768,
           "x": 12,
-          "y": 365,
+          "y": 389,
           "zOrder": 53,
           "numberProperties": [],
           "stringProperties": [],
@@ -10885,6 +10894,21 @@
           "x": 240,
           "y": 440,
           "zOrder": 55,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 80,
+          "layer": "",
+          "name": "Monster",
+          "persistentUuid": "ef8236dc-7041-48ab-b460-1eb6e6c84900",
+          "width": 71,
+          "x": 466,
+          "y": 283,
+          "zOrder": 56,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -13838,28 +13862,7 @@
               "booleanParameters": {}
             }
           ],
-          "behaviors": [
-            {
-              "name": "PlatformerObject",
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "acceleration": 1500,
-              "canGoDownFromJumpthru": true,
-              "canGrabPlatforms": false,
-              "canGrabWithoutMoving": true,
-              "deceleration": 1500,
-              "gravity": 1000,
-              "ignoreDefaultControls": false,
-              "jumpSpeed": 600,
-              "jumpSustainTime": 0.2,
-              "ladderClimbingSpeed": 150,
-              "maxFallingSpeed": 700,
-              "maxSpeed": 250,
-              "slopeMaxAngle": 60,
-              "useLegacyTrajectory": false,
-              "xGrabTolerance": 10,
-              "yGrabOffset": 0
-            }
-          ],
+          "behaviors": [],
           "animations": [
             {
               "name": "Enemy-Necromancer-Idle-32x32",
@@ -13871,7 +13874,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "creature-sheet2.png",
+                      "image": "assets\\creature-sheet.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -13932,17 +13935,6 @@
               ]
             }
           ]
-        },
-        {
-          "assetStoreId": "",
-          "name": "NewSprite",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": []
         }
       ],
       "events": [
@@ -17629,8 +17621,8 @@
           "name": "Penguin",
           "persistentUuid": "4e6f2a51-be49-4b29-91f4-844f07f41ed0",
           "width": 64,
-          "x": 138,
-          "y": 298,
+          "x": 363,
+          "y": 26,
           "zOrder": 50,
           "numberProperties": [],
           "stringProperties": [],
@@ -17644,8 +17636,8 @@
           "name": "Skull",
           "persistentUuid": "14d6dc77-4e6c-474e-8a23-10b6fb0fdf01",
           "width": 90,
-          "x": 672,
-          "y": 143,
+          "x": 689,
+          "y": 107,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -17659,8 +17651,8 @@
           "name": "Chest",
           "persistentUuid": "1bd618e6-813f-4922-9a5d-ae4c89026387",
           "width": 64,
-          "x": 64,
-          "y": 160,
+          "x": 49,
+          "y": 139,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -17704,8 +17696,8 @@
           "name": "Skull",
           "persistentUuid": "c345983c-dbe5-44f7-93b8-68d408e2cc8e",
           "width": 64,
-          "x": 292,
-          "y": 171,
+          "x": 115,
+          "y": 155,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -17734,8 +17726,8 @@
           "name": "Spikes",
           "persistentUuid": "09579fc1-8675-4647-bf5c-45d48ea7cd49",
           "width": 32,
-          "x": 349,
-          "y": 199,
+          "x": 352,
+          "y": 146,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -17749,8 +17741,8 @@
           "name": "Spikes",
           "persistentUuid": "d65cb8d9-0f6b-4256-9415-46ce0683eff9",
           "width": 32,
-          "x": 352,
-          "y": 160,
+          "x": 337,
+          "y": 158,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -17764,8 +17756,8 @@
           "name": "Spikes",
           "persistentUuid": "38719306-a823-4f51-96c4-db9857d77b87",
           "width": 32,
-          "x": 379,
-          "y": 191,
+          "x": 324,
+          "y": 145,
           "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],
@@ -17779,8 +17771,8 @@
           "name": "Spikes",
           "persistentUuid": "0f45d5d1-3233-49c9-a77f-879732ddd008",
           "width": 32,
-          "x": 384,
-          "y": 160,
+          "x": 370,
+          "y": 151,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -17893,14 +17885,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 44,
           "layer": "",
           "name": "FireBurning",
           "persistentUuid": "ba6018b0-127f-482e-ab18-a5f12a5cc439",
-          "width": 0,
-          "x": 640,
-          "y": 192,
+          "width": 51,
+          "x": 654,
+          "y": 140,
           "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
@@ -17909,13 +17901,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 32,
+          "height": 41,
           "layer": "",
           "name": "FireBurning",
           "persistentUuid": "ef71ea04-7359-4272-b31a-948fb17ae004",
-          "width": 32,
-          "x": 151,
-          "y": 160,
+          "width": 39,
+          "x": 123,
+          "y": 140,
           "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
@@ -17923,14 +17915,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 53,
           "layer": "",
           "name": "FireBurning",
           "persistentUuid": "4b6f91ff-4e79-4d9a-b695-0425549cc8f0",
-          "width": 0,
-          "x": 57,
-          "y": 236,
+          "width": 46,
+          "x": 90,
+          "y": 174,
           "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
@@ -17944,8 +17936,8 @@
           "name": "Skull",
           "persistentUuid": "be5033aa-99f1-40a5-9410-b24377d60767",
           "width": 25,
-          "x": 349,
-          "y": 186,
+          "x": 312,
+          "y": 145,
           "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [],
@@ -17959,8 +17951,8 @@
           "name": "Skull",
           "persistentUuid": "8bfa2670-436a-45d7-ae42-b4c229163a6a",
           "width": 87,
-          "x": 348,
-          "y": 153,
+          "x": 317,
+          "y": 144,
           "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
@@ -17982,30 +17974,15 @@
           "initialVariables": []
         },
         {
-          "angle": 138.96536254882812,
-          "customSize": true,
-          "height": 135,
-          "layer": "",
-          "name": "Freezing",
-          "persistentUuid": "9956c3c1-895b-4521-94a9-bd6b7cbacf39",
-          "width": 122,
-          "x": 35,
-          "y": 130,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
           "angle": 0,
           "customSize": true,
-          "height": 206,
+          "height": 22,
           "layer": "",
           "name": "ground",
           "persistentUuid": "430a0b05-b895-4920-954a-ba9db9828579",
-          "width": 768,
-          "x": 0,
-          "y": 402,
+          "width": 778,
+          "x": 10,
+          "y": 392,
           "zOrder": 53,
           "numberProperties": [],
           "stringProperties": [],
@@ -18014,13 +17991,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 162,
+          "height": 176,
           "layer": "",
           "name": "door",
           "persistentUuid": "78a7d0a8-51ae-4f87-b600-5dc9ab4a940c",
-          "width": 157,
-          "x": 698,
-          "y": 282,
+          "width": 164,
+          "x": 695,
+          "y": 271,
           "zOrder": 54,
           "numberProperties": [],
           "stringProperties": [],
@@ -18034,8 +18011,8 @@
           "name": "enter",
           "persistentUuid": "ba94b0d8-506f-4957-9159-0d26104f955a",
           "width": 0,
-          "x": 205,
-          "y": 450,
+          "x": 193,
+          "y": 444,
           "zOrder": 55,
           "numberProperties": [],
           "stringProperties": [],
@@ -18052,6 +18029,111 @@
           "x": 658,
           "y": 137,
           "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "PressSpaceText",
+          "persistentUuid": "66c53349-8392-4754-9dab-03e80e231b8c",
+          "width": 0,
+          "x": 86,
+          "y": 227,
+          "zOrder": 58,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 76,
+          "layer": "",
+          "name": "Freezing",
+          "persistentUuid": "37e19293-1f0a-4da7-954d-32b5ac51c8a3",
+          "width": 106,
+          "x": 343,
+          "y": 372,
+          "zOrder": 59,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 76,
+          "layer": "",
+          "name": "Freezing",
+          "persistentUuid": "a467006a-892e-4304-95de-31b3929b70cb",
+          "width": 106,
+          "x": 416,
+          "y": 372,
+          "zOrder": 59,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 76,
+          "layer": "",
+          "name": "Freezing",
+          "persistentUuid": "d1d08f26-516c-48fd-8a43-e02734130181",
+          "width": 106,
+          "x": 463,
+          "y": 373,
+          "zOrder": 59,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 76,
+          "layer": "",
+          "name": "Freezing",
+          "persistentUuid": "fc9a1017-e5f4-4aec-8c1d-036fcdf8b5f2",
+          "width": 106,
+          "x": 278,
+          "y": 372,
+          "zOrder": 59,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 76,
+          "layer": "",
+          "name": "Freezing",
+          "persistentUuid": "20c798ef-dc92-4449-be12-833c56adbc11",
+          "width": 106,
+          "x": 224,
+          "y": 371,
+          "zOrder": 59,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 187,
+          "layer": "",
+          "name": "door2",
+          "persistentUuid": "b163271d-03f7-414e-9709-f18ad430b238",
+          "width": 171,
+          "x": -66,
+          "y": 264,
+          "zOrder": 60,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -18187,7 +18269,7 @@
           "behaviors": [],
           "string": "??",
           "font": "Orbitron-SemiBold.ttf",
-          "characterSize": 75,
+          "characterSize": 90,
           "color": {
             "b": 0,
             "g": 0,
@@ -18214,7 +18296,7 @@
               "CurrentCharacter": ""
             }
           ],
-          "string": "Press SPACE to Play",
+          "string": "0                      or                       1",
           "font": "Orbitron-SemiBold.ttf",
           "characterSize": 40,
           "color": {
@@ -21005,28 +21087,7 @@
               "booleanParameters": {}
             }
           ],
-          "behaviors": [
-            {
-              "name": "PlatformerObject",
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "acceleration": 1500,
-              "canGoDownFromJumpthru": true,
-              "canGrabPlatforms": false,
-              "canGrabWithoutMoving": true,
-              "deceleration": 1500,
-              "gravity": 1000,
-              "ignoreDefaultControls": false,
-              "jumpSpeed": 600,
-              "jumpSustainTime": 0.2,
-              "ladderClimbingSpeed": 150,
-              "maxFallingSpeed": 700,
-              "maxSpeed": 250,
-              "slopeMaxAngle": 60,
-              "useLegacyTrajectory": false,
-              "xGrabTolerance": 10,
-              "yGrabOffset": 0
-            }
-          ],
+          "behaviors": [],
           "animations": [
             {
               "name": "Enemy-Necromancer-Idle-32x32",
@@ -21038,7 +21099,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "creature-sheet2.png",
+                      "image": "assets\\creature-sheet.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -21062,6 +21123,47 @@
         {
           "assetStoreId": "",
           "name": "door",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\door2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "door2",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -21162,7 +21264,36 @@
               },
               "parameters": [
                 "",
-                "\"Level 6\"",
+                "\"Level 8\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Penguin",
+                "door2",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level 9\"",
                 ""
               ]
             }
@@ -21207,6 +21338,168 @@
           "type": "AutoTyping::Text_AutoTyping"
         }
       ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Level_327",
+      "name": "Level 7",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 1,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 0,
+          "ambientLightColorG": 16777216,
+          "ambientLightColorR": 0,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Level_328",
+      "name": "Level 8",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 1,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 0,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 0,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Level_329",
+      "name": "Level 9",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 1,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 0,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 0,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
     },
     {
       "b": 209,
@@ -21647,51 +21940,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 163,
-          "layer": "",
-          "name": "Door2",
-          "persistentUuid": "6ab2b49e-92e1-49c6-8110-6c303932ea23",
-          "width": 163,
-          "x": -58,
-          "y": 272,
-          "zOrder": 61,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 157,
-          "layer": "",
-          "name": "door3",
-          "persistentUuid": "c7e0e6b4-44f6-45a1-a1bc-7056202b185a",
-          "width": 156,
-          "x": 700,
-          "y": 272,
-          "zOrder": 62,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 51,
-          "layer": "",
-          "name": "door0or1",
-          "persistentUuid": "bdcb6cf4-f2ee-4cad-b213-e78d85080df6",
-          "width": 682,
-          "x": 79,
-          "y": 228,
-          "zOrder": 57,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 58,
           "layer": "",
           "name": "Monster",
@@ -21727,9 +21975,39 @@
           "name": "TitleOfGamePart2",
           "persistentUuid": "72d17352-db08-48ef-a1c9-db1f036a9b68",
           "width": 0,
-          "x": 321,
-          "y": 442,
+          "x": 306,
+          "y": 440,
           "zOrder": 60,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 99,
+          "layer": "",
+          "name": "FireBurning",
+          "persistentUuid": "8f110fec-fab9-4c96-964e-99dcb4da535b",
+          "width": 80,
+          "x": 733,
+          "y": 284,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 99,
+          "layer": "",
+          "name": "FireBurning",
+          "persistentUuid": "449413bc-3b2d-4cac-87bb-b15b74b65240",
+          "width": 80,
+          "x": -19,
+          "y": 284,
+          "zOrder": 61,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -24683,28 +24961,7 @@
               "booleanParameters": {}
             }
           ],
-          "behaviors": [
-            {
-              "name": "PlatformerObject",
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "acceleration": 1500,
-              "canGoDownFromJumpthru": true,
-              "canGrabPlatforms": false,
-              "canGrabWithoutMoving": true,
-              "deceleration": 1500,
-              "gravity": 1000,
-              "ignoreDefaultControls": false,
-              "jumpSpeed": 600,
-              "jumpSustainTime": 0.2,
-              "ladderClimbingSpeed": 150,
-              "maxFallingSpeed": 700,
-              "maxSpeed": 250,
-              "slopeMaxAngle": 60,
-              "useLegacyTrajectory": false,
-              "xGrabTolerance": 10,
-              "yGrabOffset": 0
-            }
-          ],
+          "behaviors": [],
           "animations": [
             {
               "name": "Enemy-Necromancer-Idle-32x32",
@@ -24716,48 +24973,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "creature-sheet2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "name": "Door2",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "door22.png",
+                      "image": "assets\\creature-sheet.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -24867,86 +25083,6 @@
           },
           "comment": "Play Button",
           "comment2": ""
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Door0",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [],
-          "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Penguin",
-                "Door2",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Level 7\"",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Door1",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [],
-          "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Penguin",
-                "door3",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Level 5\"",
-                ""
-              ]
-            }
-          ]
         }
       ],
       "layers": [
@@ -24987,168 +25123,6 @@
           "type": "AutoTyping::Text_AutoTyping"
         }
       ]
-    },
-    {
-      "b": 209,
-      "disableInputWhenNotFocused": true,
-      "mangledName": "Level_327",
-      "name": "Level 7",
-      "r": 209,
-      "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 209,
-      "uiSettings": {
-        "grid": false,
-        "gridType": "rectangular",
-        "gridWidth": 32,
-        "gridHeight": 32,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridColor": 10401023,
-        "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 1,
-        "windowMask": false
-      },
-      "objectsGroups": [],
-      "variables": [],
-      "instances": [],
-      "objects": [],
-      "events": [],
-      "layers": [
-        {
-          "ambientLightColorB": 0,
-          "ambientLightColorG": 16777216,
-          "ambientLightColorR": 0,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "name": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": []
-        }
-      ],
-      "behaviorsSharedData": []
-    },
-    {
-      "b": 209,
-      "disableInputWhenNotFocused": true,
-      "mangledName": "Level_328",
-      "name": "Level 8",
-      "r": 209,
-      "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 209,
-      "uiSettings": {
-        "grid": false,
-        "gridType": "rectangular",
-        "gridWidth": 32,
-        "gridHeight": 32,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridColor": 10401023,
-        "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 1,
-        "windowMask": false
-      },
-      "objectsGroups": [],
-      "variables": [],
-      "instances": [],
-      "objects": [],
-      "events": [],
-      "layers": [
-        {
-          "ambientLightColorB": 0,
-          "ambientLightColorG": 0,
-          "ambientLightColorR": 0,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "name": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": []
-        }
-      ],
-      "behaviorsSharedData": []
-    },
-    {
-      "b": 209,
-      "disableInputWhenNotFocused": true,
-      "mangledName": "Level_329",
-      "name": "Level 9",
-      "r": 209,
-      "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 209,
-      "uiSettings": {
-        "grid": false,
-        "gridType": "rectangular",
-        "gridWidth": 32,
-        "gridHeight": 32,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridColor": 10401023,
-        "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 1,
-        "windowMask": false
-      },
-      "objectsGroups": [],
-      "variables": [],
-      "instances": [],
-      "objects": [],
-      "events": [],
-      "layers": [
-        {
-          "ambientLightColorB": 0,
-          "ambientLightColorG": 0,
-          "ambientLightColorR": 0,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "name": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": []
-        }
-      ],
-      "behaviorsSharedData": []
     },
     {
       "b": 209,
