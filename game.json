@@ -3232,6 +3232,16 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Hud/Bar/e6e666707e06c429f6dd475d85d575a5b69a1dc27369a8f1d06a747afa2f1264_Health Bar Box.png",
           "name": "Health Bar Box.png"
         }
+      },
+      {
+        "file": "2019-12-11_-_Retro_Platforming_-_David_Fesliyan.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "2019-12-11_-_Retro_Platforming_-_David_Fesliyan.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3803,28 +3813,7 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [
-            {
-              "name": "PlatformerObject",
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "acceleration": 1500,
-              "canGoDownFromJumpthru": true,
-              "canGrabPlatforms": false,
-              "canGrabWithoutMoving": true,
-              "deceleration": 1500,
-              "gravity": 1000,
-              "ignoreDefaultControls": false,
-              "jumpSpeed": 600,
-              "jumpSustainTime": 0.2,
-              "ladderClimbingSpeed": 150,
-              "maxFallingSpeed": 700,
-              "maxSpeed": 250,
-              "slopeMaxAngle": 60,
-              "useLegacyTrajectory": false,
-              "xGrabTolerance": 10,
-              "yGrabOffset": 0
-            }
-          ],
+          "behaviors": [],
           "animations": [
             {
               "name": "Idle",
@@ -6554,6 +6543,46 @@
             "textG": 0,
             "textR": 0
           },
+          "comment": "Beginning of the scene",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "2019-12-11_-_Retro_Platforming_-_David_Fesliyan.mp3",
+                "yes",
+                "30",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
           "comment": "Penguin",
           "comment2": ""
         },
@@ -6708,10 +6737,6 @@
         {
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior"
-        },
-        {
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior"
         },
         {
           "name": "Text_AutoTyping",
@@ -7071,6 +7096,51 @@
           "x": 672,
           "y": 160,
           "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "TitleOfLevelFadeOut",
+          "persistentUuid": "e5f1a376-0370-4dd1-be58-e45997ff0ad0",
+          "width": 0,
+          "x": 32,
+          "y": 224,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 25,
+          "layer": "",
+          "name": "IntroTextP1",
+          "persistentUuid": "9d813ab0-d6b3-40b7-8a4e-db58ba284ed7",
+          "width": 512,
+          "x": 256,
+          "y": 295,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 25,
+          "layer": "",
+          "name": "IntroTextP2",
+          "persistentUuid": "11278733-9025-4b52-99a2-ada9bdf5f9de",
+          "width": 480,
+          "x": 256,
+          "y": 295,
+          "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10009,6 +10079,85 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TitleOfLevelFadeOut",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Start State",
+          "font": "Orbitron-SemiBold.ttf",
+          "characterSize": 120,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "IntroTextP1",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Text_AutoTyping",
+              "type": "AutoTyping::Text_AutoTyping",
+              "Interval": 0.07,
+              "CharacterJustAdded": false,
+              "CurrentCharacter": ""
+            }
+          ],
+          "string": "Welcome! This is a game structutred as a DFA. To finish the game, the player has to go through levels defeating monsters and finally a final boss.",
+          "font": "Orbitron-SemiBold.ttf",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "IntroTextP2",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Text_AutoTyping",
+              "type": "AutoTyping::Text_AutoTyping",
+              "Interval": 0.07,
+              "CharacterJustAdded": false,
+              "CurrentCharacter": ""
+            }
+          ],
+          "string": "Use the left and right arrow keys to move and left-click to shoot the enemies. Press SPACE to continue",
+          "font": "Orbitron-SemiBold.ttf",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
         }
       ],
       "events": [
@@ -10022,8 +10171,89 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Penguin",
+          "comment": "Beginning of the scene",
           "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "2019-12-11_-_Retro_Platforming_-_David_Fesliyan.mp3",
+                "yes",
+                "30",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "IntroTextP1",
+                "\"TimerP1\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "IntroTextP2",
+                "\"TimerP2\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AutoTyping::Text_AutoTyping::Pause"
+              },
+              "parameters": [
+                "IntroTextP1",
+                "Text_AutoTyping",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AutoTyping::Text_AutoTyping::Pause"
+              },
+              "parameters": [
+                "IntroTextP2",
+                "Text_AutoTyping",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::Opacity"
+              },
+              "parameters": [
+                "TitleOfLevelFadeOut",
+                "=",
+                "lerp(TitleOfLevelFadeOut.Opacity(), 0, 0.03)"
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -10035,8 +10265,116 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Play Button",
+          "comment": "Text",
           "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "IntroTextP1",
+                "\"TimerP1\"",
+                ">",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AutoTyping::Text_AutoTyping::Resume"
+              },
+              "parameters": [
+                "IntroTextP1",
+                "Text_AutoTyping",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "IntroTextP1",
+                "\"TimerP1\"",
+                ">",
+                "17"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "IntroTextP1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "IntroTextP2",
+                "\"TimerP2\"",
+                ">",
+                "18"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AutoTyping::Text_AutoTyping::Resume"
+              },
+              "parameters": [
+                "IntroTextP2",
+                "Text_AutoTyping",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Space"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level 2\"",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
