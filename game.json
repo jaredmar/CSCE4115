@@ -29596,8 +29596,8 @@
           "persistentUuid": "4e6f2a51-be49-4b29-91f4-844f07f41ed0",
           "width": 64,
           "x": 357,
-          "y": 247,
-          "zOrder": 92,
+          "y": 20,
+          "zOrder": 94,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
@@ -29849,7 +29849,7 @@
           "persistentUuid": "72d17352-db08-48ef-a1c9-db1f036a9b68",
           "width": 0,
           "x": 126,
-          "y": 395,
+          "y": 417,
           "zOrder": 60,
           "numberProperties": [],
           "stringProperties": [],
@@ -29893,8 +29893,8 @@
           "name": "Monster",
           "persistentUuid": "285ca39f-b3ed-4d21-bb20-8b210018cfb6",
           "width": 135,
-          "x": 584,
-          "y": 195,
+          "x": 720,
+          "y": 256,
           "zOrder": 71,
           "numberProperties": [],
           "stringProperties": [],
@@ -30041,8 +30041,8 @@
           "name": "Monster3",
           "persistentUuid": "12cf64fd-f224-4ea3-8ecd-02c865f78f9f",
           "width": 143,
-          "x": 90,
-          "y": 199,
+          "x": -61,
+          "y": 251,
           "zOrder": 91,
           "numberProperties": [],
           "stringProperties": [],
@@ -30060,6 +30060,21 @@
               "value": 5
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "acceptedState",
+          "persistentUuid": "854ec2d1-309a-4f66-bf80-30e9c9d93b57",
+          "width": 0,
+          "x": 340,
+          "y": 153,
+          "zOrder": 93,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -34230,6 +34245,60 @@
             "g": 0,
             "r": 0
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "acceptedState",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "DropShadow",
+              "name": "Effect2",
+              "doubleParameters": {
+                "alpha": 1,
+                "blur": 2,
+                "distance": 1,
+                "padding": 0,
+                "quality": 3,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "color": "0;0;0"
+              },
+              "booleanParameters": {
+                "shadowOnly": false
+              }
+            },
+            {
+              "effectType": "AdvancedBloom",
+              "name": "Effect3",
+              "doubleParameters": {
+                "bloomScale": 0.7,
+                "blur": 4,
+                "brightness": 0.7,
+                "padding": 0,
+                "quality": 7,
+                "threshold": 0.5
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "string": "0101",
+          "font": "Orbitron-SemiBold.ttf",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
         }
       ],
       "events": [
@@ -35512,6 +35581,21 @@
           "x": 78,
           "y": 79,
           "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "acceptedState",
+          "persistentUuid": "385b05f4-7e26-43db-aa6e-ae21f75a7e52",
+          "width": 0,
+          "x": 347,
+          "y": 161,
+          "zOrder": 27,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -37891,6 +37975,60 @@
             "g": 255,
             "r": 255
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "acceptedState",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "DropShadow",
+              "name": "Effect2",
+              "doubleParameters": {
+                "alpha": 1,
+                "blur": 2,
+                "distance": 1,
+                "padding": 0,
+                "quality": 3,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "color": "0;0;0"
+              },
+              "booleanParameters": {
+                "shadowOnly": false
+              }
+            },
+            {
+              "effectType": "AdvancedBloom",
+              "name": "Effect3",
+              "doubleParameters": {
+                "bloomScale": 0.7,
+                "blur": 4,
+                "brightness": 0.7,
+                "padding": 0,
+                "quality": 7,
+                "threshold": 0.5
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "string": "0111",
+          "font": "Orbitron-SemiBold.ttf",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
         }
       ],
       "events": [
@@ -38771,7 +38909,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -38779,7 +38917,7 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": true,
+        "snap": false,
         "zoomFactor": 0.8100000000000004,
         "windowMask": false
       },
@@ -38824,9 +38962,9 @@
           "name": "Penguin",
           "persistentUuid": "de1b4e44-c923-4f5a-b559-740e77c5cc98",
           "width": 64,
-          "x": 352,
-          "y": -32,
-          "zOrder": 4,
+          "x": 359,
+          "y": -31,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
@@ -39158,6 +39296,21 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "acceptedState",
+          "persistentUuid": "ad25e1cf-4d4d-4427-a970-64b4f730d616",
+          "width": 0,
+          "x": 344,
+          "y": 149,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -39247,7 +39400,7 @@
           "assetStoreId": "",
           "bold": false,
           "italic": false,
-          "name": "TitleOfGamePart2",
+          "name": "acceptedState",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -39288,9 +39441,9 @@
             }
           ],
           "behaviors": [],
-          "string": "Level 3",
+          "string": "0110",
           "font": "Orbitron-SemiBold.ttf",
-          "characterSize": 30,
+          "characterSize": 40,
           "color": {
             "b": 0,
             "g": 0,
@@ -42754,7 +42907,19 @@
       "stopSoundsOnStartup": true,
       "title": "",
       "v": 209,
-      "uiSettings": {},
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 1,
+        "windowMask": false
+      },
       "objectsGroups": [],
       "variables": [],
       "instances": [],
