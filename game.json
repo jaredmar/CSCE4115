@@ -39179,7 +39179,7 @@
                 "value": "VarObjet"
               },
               "parameters": [
-                "penguin",
+                "Penguin",
                 "Health",
                 ">=",
                 "Penguin.Variable(MaxHealth)"
@@ -39198,7 +39198,7 @@
                 "value": "ModVarObjet"
               },
               "parameters": [
-                "penguin",
+                "Penguin",
                 "Health",
                 "+",
                 "1"
@@ -39223,7 +39223,7 @@
                 "value": "VarObjet"
               },
               "parameters": [
-                "penguin",
+                "Penguin",
                 "Health",
                 "<=",
                 "0"
