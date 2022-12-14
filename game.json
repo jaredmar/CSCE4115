@@ -19441,33 +19441,6 @@
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlayMusic"
-              },
-              "parameters": [
-                "",
-                "2021-08-30_-_Boss_Time_-_www.FesliyanStudios.com.mp3",
-                "yes",
-                "30",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": []
         }
@@ -30595,35 +30568,7 @@
       "variables": [],
       "instances": [],
       "objects": [],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlayMusic"
-              },
-              "parameters": [
-                "",
-                "2021-08-30_-_Boss_Time_-_www.FesliyanStudios.com.mp3",
-                "yes",
-                "30",
-                ""
-              ]
-            }
-          ]
-        }
-      ],
+      "events": [],
       "layers": [
         {
           "ambientLightColorB": 0,
@@ -30678,33 +30623,6 @@
       "instances": [],
       "objects": [],
       "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlayMusic"
-              },
-              "parameters": [
-                "",
-                "2021-08-30_-_Boss_Time_-_www.FesliyanStudios.com.mp3",
-                "yes",
-                "30",
-                ""
-              ]
-            }
-          ]
-        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
