@@ -38962,7 +38962,7 @@
             }
           ],
           "behaviors": [],
-          "string": "0110",
+          "string": "0100",
           "font": "Orbitron-SemiBold.ttf",
           "textAlignment": "",
           "characterSize": 40,
@@ -47707,7 +47707,7 @@
                 "value": "VarObjet"
               },
               "parameters": [
-                "penguin",
+                "Penguin",
                 "Health",
                 ">=",
                 "Penguin.Variable(MaxHealth)"
@@ -47726,7 +47726,7 @@
                 "value": "ModVarObjet"
               },
               "parameters": [
-                "penguin",
+                "Penguin",
                 "Health",
                 "+",
                 "1"
@@ -47751,7 +47751,7 @@
                 "value": "VarObjet"
               },
               "parameters": [
-                "penguin",
+                "Penguin",
                 "Health",
                 "<=",
                 "0"
@@ -48916,7 +48916,7 @@
             }
           ],
           "behaviors": [],
-          "string": "0100",
+          "string": "0110",
           "font": "Orbitron-SemiBold.ttf",
           "textAlignment": "",
           "characterSize": 40,
