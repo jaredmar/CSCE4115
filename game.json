@@ -5191,6 +5191,15 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Other/066a4edd7135808b8f715dee09860e4e9a44cd1fe972766cfe158ab675032c10_Green plant (5).png",
           "name": "Green plant (5).png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/WallCornerFrontLeft-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\WallCornerFrontLeft-1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -19897,6 +19906,8 @@
               "FlashDuration": 0
             },
             {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -19909,9 +19920,7 @@
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
               "maxSpeed": 250,
-              "name": "PlatformerObject",
               "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "useLegacyTrajectory": false,
               "xGrabTolerance": 10,
               "yGrabOffset": 0
@@ -20007,6 +20016,8 @@
               "FlashDuration": 0
             },
             {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -20019,9 +20030,7 @@
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
               "maxSpeed": 250,
-              "name": "PlatformerObject",
               "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "useLegacyTrajectory": false,
               "xGrabTolerance": 10,
               "yGrabOffset": 0
@@ -37614,7 +37623,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1,
+        "zoomFactor": 0.7599999999999998,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -37866,36 +37875,6 @@
           "width": 76,
           "x": 262,
           "y": 284,
-          "zOrder": 21,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 78,
-          "layer": "",
-          "name": "GreenPotion",
-          "persistentUuid": "bee01ffe-324c-49f0-9315-d945ef9fee80",
-          "width": 76,
-          "x": -268,
-          "y": 48,
-          "zOrder": 21,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 78,
-          "layer": "",
-          "name": "GreenPotion",
-          "persistentUuid": "62672dd3-d1f7-41b7-ba97-031ef290c583",
-          "width": 76,
-          "x": -273,
-          "y": 483,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -39053,7 +39032,7 @@
           "height": 32,
           "name": "ground",
           "tags": "",
-          "texture": "WallCornerFrontLeft-1.png",
+          "texture": "assets\\WallCornerFrontLeft-1.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
@@ -39137,6 +39116,8 @@
               "FlashDuration": 0
             },
             {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -39149,9 +39130,7 @@
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
               "maxSpeed": 250,
-              "name": "PlatformerObject",
               "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "useLegacyTrajectory": false,
               "xGrabTolerance": 10,
               "yGrabOffset": 0
@@ -44637,7 +44616,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "20"
+                "10"
               ]
             },
             {
