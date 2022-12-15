@@ -23,7 +23,7 @@
     "author": "",
     "windowWidth": 800,
     "windowHeight": 600,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "C:\\Users\\Jo968\\OneDrive\\Desktop\\Game",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -12779,8 +12779,8 @@
           "name": "TitleOfGamePart2",
           "persistentUuid": "3b616bb8-4e3e-4567-bc9d-6b88c4815f22",
           "width": 0,
-          "x": 401,
-          "y": 486,
+          "x": 185,
+          "y": 237,
           "zOrder": 55,
           "numberProperties": [],
           "stringProperties": [],
@@ -13078,14 +13078,14 @@
             }
           ],
           "behaviors": [],
-          "string": "Level 2",
+          "string": "State 1",
           "font": "Orbitron-SemiBold.ttf",
           "textAlignment": "",
-          "characterSize": 40,
+          "characterSize": 120,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 255,
+            "g": 255,
+            "r": 255
           }
         },
         {
@@ -17072,6 +17072,22 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::Opacity"
+              },
+              "parameters": [
+                "TitleOfGamePart2",
+                "=",
+                "lerp(TitleOfGamePart2.Opacity(), 0, 0.03)"
+              ]
+            }
+          ]
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -17794,21 +17810,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 41,
-          "layer": "",
-          "name": "TitleOfGamePart2",
-          "persistentUuid": "cc775cf4-7a43-4e3b-9db1-7a361d55b312",
-          "width": 132,
-          "x": 324,
-          "y": 439,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 64,
           "layer": "",
           "name": "Penguin",
@@ -18122,13 +18123,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 230,
+          "height": 218,
           "layer": "",
           "name": "ground",
           "persistentUuid": "c53a2df8-4184-4c56-bb5b-d86fbdfc8d06",
           "width": 796,
           "x": 4,
-          "y": 379,
+          "y": 385,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -18488,6 +18489,21 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "TitleOfGamePart2",
+          "persistentUuid": "3b502291-ffe9-4a6d-b82b-1b2305187493",
+          "width": 0,
+          "x": 157,
+          "y": 228,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -18618,14 +18634,14 @@
             }
           ],
           "behaviors": [],
-          "string": "Level 3",
+          "string": "State 2",
           "font": "Orbitron-SemiBold.ttf",
           "textAlignment": "",
-          "characterSize": 30,
+          "characterSize": 120,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 255,
+            "g": 255,
+            "r": 255
           }
         },
         {
@@ -21290,6 +21306,22 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::Opacity"
+              },
+              "parameters": [
+                "TitleOfGamePart2",
+                "=",
+                "lerp(TitleOfGamePart2.Opacity(), 0, 0.03)"
+              ]
+            }
+          ]
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -22655,6 +22687,21 @@
           "x": 69,
           "y": 79,
           "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "TitleOfGamePart2",
+          "persistentUuid": "7c152776-989b-4db4-ac01-c753930f5504",
+          "width": 0,
+          "x": 156,
+          "y": 246,
+          "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -25677,6 +25724,61 @@
             "g": 0,
             "r": 0
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TitleOfGamePart2",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "DropShadow",
+              "name": "Effect2",
+              "doubleParameters": {
+                "alpha": 1,
+                "blur": 2,
+                "distance": 1,
+                "padding": 0,
+                "quality": 3,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "color": "0;0;0"
+              },
+              "booleanParameters": {
+                "shadowOnly": false
+              }
+            },
+            {
+              "effectType": "AdvancedBloom",
+              "name": "Effect3",
+              "doubleParameters": {
+                "bloomScale": 0.7,
+                "blur": 4,
+                "brightness": 0.7,
+                "padding": 0,
+                "quality": 7,
+                "threshold": 0.5
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "string": "State 3",
+          "font": "Orbitron-SemiBold.ttf",
+          "textAlignment": "",
+          "characterSize": 120,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         }
       ],
       "events": [
@@ -25740,6 +25842,22 @@
                 "Penguin",
                 "50",
                 "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::Opacity"
+              },
+              "parameters": [
+                "TitleOfGamePart2",
+                "=",
+                "lerp(TitleOfGamePart2.Opacity(), 0, 0.03)"
               ]
             }
           ]
@@ -26826,21 +26944,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "enter",
-          "persistentUuid": "ba94b0d8-506f-4957-9159-0d26104f955a",
-          "width": 0,
-          "x": 295,
-          "y": 472,
-          "zOrder": 55,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "height": 57,
           "layer": "",
@@ -27082,6 +27185,21 @@
           "x": 512,
           "y": 180,
           "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "TitleOfGamePart2",
+          "persistentUuid": "6f7fae10-d9b3-46a8-b25d-c8efcba2b1a5",
+          "width": 0,
+          "x": 146,
+          "y": 244,
+          "zOrder": 88,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -31225,6 +31343,61 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TitleOfGamePart2",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "DropShadow",
+              "name": "Effect2",
+              "doubleParameters": {
+                "alpha": 1,
+                "blur": 2,
+                "distance": 1,
+                "padding": 0,
+                "quality": 3,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "color": "0;0;0"
+              },
+              "booleanParameters": {
+                "shadowOnly": false
+              }
+            },
+            {
+              "effectType": "AdvancedBloom",
+              "name": "Effect3",
+              "doubleParameters": {
+                "bloomScale": 0.7,
+                "blur": 4,
+                "brightness": 0.7,
+                "padding": 0,
+                "quality": 7,
+                "threshold": 0.5
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "string": "State 3",
+          "font": "Orbitron-SemiBold.ttf",
+          "textAlignment": "",
+          "characterSize": 120,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         }
       ],
       "events": [
@@ -31277,6 +31450,22 @@
                 "Penguin",
                 "10",
                 "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::Opacity"
+              },
+              "parameters": [
+                "TitleOfGamePart2",
+                "=",
+                "lerp(TitleOfGamePart2.Opacity(), 0, 0.03)"
               ]
             }
           ]
@@ -32292,9 +32481,9 @@
           "name": "TitleOfGamePart2",
           "persistentUuid": "72d17352-db08-48ef-a1c9-db1f036a9b68",
           "width": 0,
-          "x": 126,
-          "y": 417,
-          "zOrder": 60,
+          "x": 42,
+          "y": 245,
+          "zOrder": 95,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -32652,11 +32841,11 @@
           "string": "Final State",
           "font": "Orbitron-SemiBold.ttf",
           "textAlignment": "",
-          "characterSize": 75,
+          "characterSize": 120,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 255,
+            "g": 255,
+            "r": 255
           }
         },
         {
@@ -36751,6 +36940,28 @@
             "g": 0,
             "r": 0
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "GameCompleted",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Game Completed",
+          "font": "Orbitron-SemiBold.ttf",
+          "textAlignment": "",
+          "characterSize": 80,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         }
       ],
       "events": [
@@ -36825,6 +37036,22 @@
                 "Penguin",
                 "120",
                 "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::Opacity"
+              },
+              "parameters": [
+                "TitleOfGamePart2",
+                "=",
+                "lerp(TitleOfGamePart2.Opacity(), 0, 0.03)"
               ]
             }
           ]
@@ -37345,12 +37572,14 @@
             },
             {
               "type": {
-                "value": "TextObject::String"
+                "value": "Create"
               },
               "parameters": [
-                "TitleOfGamePart2",
-                "=",
-                "\"You Won!!!!\""
+                "",
+                "GameCompleted",
+                "32",
+                "256",
+                ""
               ]
             },
             {
@@ -37358,7 +37587,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "10\n"
+                "5"
               ]
             },
             {
@@ -37712,8 +37941,8 @@
           "name": "acceptedState",
           "persistentUuid": "ddea4ad7-067c-4b2d-9775-eefe0d7b4d31",
           "width": 0,
-          "x": 315,
-          "y": 204,
+          "x": 318,
+          "y": 146,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -37727,9 +37956,9 @@
           "name": "acceptedState2",
           "persistentUuid": "7d9c468b-99a0-4f19-b70f-4cc3dc0c2a9c",
           "width": 0,
-          "x": 254,
-          "y": 156,
-          "zOrder": 6,
+          "x": 59,
+          "y": 212,
+          "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -39020,10 +39249,10 @@
           "string": "Final state",
           "font": "Orbitron-SemiBold.ttf",
           "textAlignment": "",
-          "characterSize": 40,
+          "characterSize": 120,
           "color": {
-            "b": 31,
-            "g": 0,
+            "b": 255,
+            "g": 255,
             "r": 255
           }
         },
@@ -43896,6 +44125,22 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::Opacity"
+              },
+              "parameters": [
+                "acceptedState2",
+                "=",
+                "lerp(acceptedState2.Opacity(), 0, 0.03)"
+              ]
+            }
+          ]
+        },
+        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -44616,7 +44861,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "10"
+                "5"
               ]
             },
             {
@@ -44696,7 +44941,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1,
+        "zoomFactor": 0.9348,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -44960,10 +45205,10 @@
           "layer": "",
           "name": "title",
           "persistentUuid": "50e96d03-0058-4e05-b6e7-4704a9f15485",
-          "width": 679,
-          "x": 54,
-          "y": 400,
-          "zOrder": 22,
+          "width": 732,
+          "x": 49,
+          "y": 243,
+          "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -47399,11 +47644,11 @@
           "string": "Final State",
           "font": "Orbitron-SemiBold.ttf",
           "textAlignment": "",
-          "characterSize": 30,
+          "characterSize": 120,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 255,
+            "g": 255,
+            "r": 255
           }
         },
         {
@@ -47504,6 +47749,28 @@
             "g": 0,
             "r": 0
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "GameCompleted",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Game Completed",
+          "font": "Orbitron-SemiBold.ttf",
+          "textAlignment": "",
+          "characterSize": 80,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         }
       ],
       "events": [
@@ -47580,6 +47847,22 @@
                 "Penguin",
                 "120",
                 "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::Opacity"
+              },
+              "parameters": [
+                "title",
+                "=",
+                "lerp(title.Opacity(), 0, 0.03)"
               ]
             }
           ]
@@ -48117,12 +48400,14 @@
                 },
                 {
                   "type": {
-                    "value": "TextObject::String"
+                    "value": "Create"
                   },
                   "parameters": [
-                    "title",
-                    "=",
-                    "\"You defeated KipMonsters\""
+                    "",
+                    "GameCompleted",
+                    "32",
+                    "256",
+                    ""
                   ]
                 },
                 {
@@ -48130,7 +48415,7 @@
                     "value": "Wait"
                   },
                   "parameters": [
-                    "10\n"
+                    "5"
                   ]
                 },
                 {
@@ -52317,7 +52602,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "2\n"
+                "5"
               ]
             },
             {
