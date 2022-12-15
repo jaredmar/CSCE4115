@@ -1,7 +1,7 @@
 # CSCE4115
 
 To play the game you have two options(the first option is prefered):
-1. Click on the following link to play the game on Itch.io: 
+1. Click on the following link to play the game on Itch.io: https://jaredmz.itch.io/csce4115-proje
 
 2. You will need to download the project then download GDevelop through the link provided. Inside GDevelop, open the project and click on the "Project manager" icon which is located on the top left. Then, click on the "Title Screen" scene. From there, just click on the "Priview" button which is located top middle. Download GDevelop: https://gdevelop.io/download
     
